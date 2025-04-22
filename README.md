@@ -5,8 +5,8 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 ![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.8-blue) ![VB.NET](https://img.shields.io/badge/VB.NET-Visual_Studio-purple) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-blueviolet) ![NUnit3](https://img.shields.io/badge/NUnit-3.13.3-green) ![Moq](https://img.shields.io/badge/Moq-4.18.2-orange)
 ## Estrutura do Projeto
 
-- **`/Tests`**: Contém os arquivos de teste.
-- **`/Source`**: Contém o código-fonte principal.
+- **`/ConsoleVB`**: Contém os arquivos de teste.
+- **`/ConsoleVB.Tests`**: Contém o código-fonte principal.
 
 ## Pré-requisitos
 

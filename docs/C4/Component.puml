@@ -1,0 +1,21 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' Exemplo de diagrama de sequência baseado em classes no diretório ConsoleVB
+
+actor User as "Usuário"
+
+component ConsoleApp as "ConsoleVB.Main" {
+    component Service as "ConsoleVB.Service" {
+        component Repository as "ConsoleVB.Repository"
+    }
+}
+
+User -> ConsoleApp : Inicia aplicação
+ConsoleApp -> Service : Chama serviço
+Service -> Repository : Busca dados
+Repository --> Service : Retorna dados
+Service --> ConsoleApp : Retorna resultado
+ConsoleApp --> User : Exibe resultado
+
+@enduml

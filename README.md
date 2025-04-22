@@ -10,8 +10,8 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 
 ## Pré-requisitos
 
-- Visual Studio instalado.
-- .NET Framework ou .NET Core compatível.
+- Visual Studio ou Visual Studio Code instalado.
+- .NET Framework 4.8
 
 ## Como Executar os Testes
 
@@ -19,9 +19,13 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
     ```bash
     git clone https://github.com/usuario/VBNetTests.git
     ```
-2. Abra o projeto no Visual Studio.
+2. Abra o projeto na sua IDE.
 3. Compile a solução para restaurar os pacotes necessários.
-4. Execute os testes usando o Test Explorer.
+4. Execute os testes usando o Test Explorer caso esteja usando o Visual Studio 2022.
+5. Caso esteja usando o Visual Studio Code, execute os testes via linha de comando utilizando o seguinte comando:
+    ```bash
+    dotnet test
+    ```
 
 ## Contribuição
 

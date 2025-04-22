@@ -1,0 +1,7 @@
+@startuml ContainerVBNetTests
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person_Ext(usuario, "Usuário", "Usuario que testa a aplicação")
+Container(console, "ConsoleApp", "VB.NET", "Clientes e produtos", "Console de teste para a aplicação")
+
+@enduml

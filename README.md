@@ -1,7 +1,8 @@
-# VB.NET.Tests
+# VBNetTests
 
 Este repositório contém testes desenvolvidos em VB.NET para validar funcionalidades e garantir a qualidade do código.
 
+![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.8-blue) ![VB.NET](https://img.shields.io/badge/VB.NET-Visual_Studio-purple) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-blueviolet) ![NUnit3](https://img.shields.io/badge/NUnit-3.13.3-green) ![Moq](https://img.shields.io/badge/Moq-4.18.2-orange)
 ## Estrutura do Projeto
 
 - **`/Tests`**: Contém os arquivos de teste.
@@ -16,7 +17,7 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/usuario/VB.NET.Tests.git
+    git clone https://github.com/usuario/VBNetTests.git
     ```
 2. Abra o projeto no Visual Studio.
 3. Compile a solução para restaurar os pacotes necessários.

@@ -26,6 +26,9 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
     ```bash
     dotnet test
     ```
+## Arquitetura
+
+![Container Diagram](out\docs\C4\Container\ContainerVBNetTests.png)
 
 ## Contribuição
 

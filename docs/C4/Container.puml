@@ -4,4 +4,6 @@
 Person_Ext(usuario, "Usuário", "Usuario que testa a aplicação")
 Container(console, "ConsoleApp", "VB.NET", "Clientes e produtos", "Console de teste para a aplicação")
 
+Rel(usuario, console, "Testa", "HTTP/HTTPS")
+
 @enduml

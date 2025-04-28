@@ -16,16 +16,19 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 ## Como Executar os Testes
 
 1. Clone este repositório:
+
     ```bash
     git clone https://github.com/usuario/VBNetTests.git
     ```
+
 2. Abra o projeto na sua IDE.
 3. Compile a solução para restaurar os pacotes necessários.
 4. Execute os testes usando o Test Explorer caso esteja usando o Visual Studio 2022.
-5. Caso esteja usando o Visual Studio Code, execute os testes via linha de comando utilizando o seguinte comando:
-    ```bash
-    dotnet test
-    ```
+
+## Moq - Utilização
+
+Não precisa de Injeção de dependência para utilizar o Moq nesta versão do .NET Framework 4.8 mas é necessário que os métodos (Sub) implementem interfaces para isso.
+
 ## Arquitetura
 
 ![Container Diagram](out/docs/C4/Container/ContainerVBNetTests.png)

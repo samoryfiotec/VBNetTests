@@ -28,26 +28,15 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
     ```
 ## Arquitetura
 
-![Container Diagram](out\docs\C4\Container\ContainerVBNetTests.png)
+![Container Diagram](out/docs/C4/Container/ContainerVBNetTests.png)
 
 ## Contribuição
 
-Contribuições são bem-vindas! Siga os passos abaixo:
+Além de clonar e testar na sua própria máquina você pode incluir as suas próprias entidades e métodos para criar os seus testes. Só criar sua própria branch e submeter um pull request.
 
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature:
-    ```bash
-    git checkout -b minha-feature
-    ```
-3. Faça commit das suas alterações:
-    ```bash
-    git commit -m "Descrição da minha feature"
-    ```
-4. Envie suas alterações:
-    ```bash
-    git push origin minha-feature
-    ```
-5. Abra um Pull Request.
+Acompanhe as discussões na aba "Issue" aqui neste respositório.
+
+Clique em watch para ser avisado das atualizações deste repo.
 
 ## Licença
 

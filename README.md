@@ -43,4 +43,4 @@ Clique em watch para ser avisado das atualizações deste repo.
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [Licença BSD-3-Clause](LICENSE).

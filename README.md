@@ -3,6 +3,7 @@
 Este repositório contém testes desenvolvidos em VB.NET para validar funcionalidades e garantir a qualidade do código.
 
 ![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.8-blue) ![VB.NET](https://img.shields.io/badge/VB.NET-Visual_Studio-purple) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-blueviolet) ![NUnit3](https://img.shields.io/badge/NUnit-3.13.3-green) ![Moq](https://img.shields.io/badge/Moq-4.18.2-orange)
+
 ## Estrutura do Projeto
 
 - **`/ConsoleVB`**: Contém os arquivos de teste.
@@ -12,6 +13,11 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 
 - Visual Studio 2022
 - .NET Framework 4.8
+
+## Frameworks de Testes
+
+- NUnit3
+- Moq
 
 ## Como Executar os Testes
 
@@ -25,21 +31,25 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 3. Compile a solução para restaurar os pacotes necessários.
 4. Execute os testes usando o Test Explorer caso esteja usando o Visual Studio 2022.
 
-### Moq - Utilização
+## NUnit3 - Definição
+
+NUnit3 é um framework de testes unitários para .NET que facilita a criação e execução de testes automatizados, suportando várias asserções e parametrizações.
+
+## Moq - Utilização
 
 Não precisa de Injeção de dependência para utilizar o Moq nesta versão do .NET Framework 4.8 mas é necessário que os métodos (Sub) implementem interfaces para isso.
 
-### Fine Code Coverage
+## Fine Code Coverage
 
 Fine Code Coverage é uma extensão para Visual Studio que permite visualizar a cobertura de código diretamente na IDE. Ele integra-se ao Test Explorer e fornece relatórios detalhados sobre quais partes do código foram cobertas pelos testes.
 
-#### Como Funciona
+### Como Funciona
 
 1. **Instrumentação do Código**: Durante a execução dos testes, o Fine Code Coverage analisa o código-fonte e identifica quais linhas foram executadas.
 2. **Relatórios Visuais**: Ele gera relatórios em HTML e destaca as linhas cobertas e não cobertas diretamente no editor de código.
 3. **Integração com Testes**: Funciona com frameworks de teste como NUnit, MSTest e xUnit.
 
-#### Como Baixar e Instalar
+### Como Baixar e Instalar
 
 Para instalar o Fine Code Coverage, siga os passos abaixo:
 

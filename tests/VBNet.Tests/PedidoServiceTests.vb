@@ -1,5 +1,8 @@
 ﻿Imports Moq
 Imports NUnit.Framework
+Imports VBNet.Domain
+Imports VBNet.Infra
+Imports VBNet.Service
 
 <TestFixture>
 Public Class PedidoServiceTests

@@ -1,4 +1,5 @@
-Imports NUnit.Framework
+ÔªøImports NUnit.Framework
+Imports VBNet.Domain
 
 <TestFixture>
 Public Class ClienteTests
@@ -10,11 +11,11 @@ Public Class ClienteTests
 
         ' Act
         cliente.Id = 1
-        cliente.Nome = "Jo„o"
+        cliente.Nome = "Jo√£o"
 
         ' Assert
         Assert.AreEqual(1, cliente.Id)
-        Assert.AreEqual("Jo„o", cliente.Nome)
+        Assert.AreEqual("Jo√£o", cliente.Nome)
     End Sub
 
 End Class

@@ -1,4 +1,5 @@
-Imports NUnit.Framework
+﻿Imports NUnit.Framework
+Imports VBNet.Domain
 
 <TestFixture>
 Public Class PedidoTests
@@ -13,10 +14,10 @@ Public Class PedidoTests
 
         ' Act
         Dim pedido = New Pedido With {
-            .id = id,
-            .clienteId = clienteId,
-            .data = data,
-            .valorTotal = valorTotal
+            .Id = id,
+            .ClienteId = clienteId,
+            .Data = data,
+            .ValorTotal = valorTotal
         }
 
         ' Assert

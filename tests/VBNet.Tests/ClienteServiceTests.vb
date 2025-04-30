@@ -1,5 +1,8 @@
 ﻿Imports Moq
 Imports NUnit.Framework
+Imports VBNet.Domain
+Imports VBNet.Infra
+Imports VBNet.Service
 
 <TestFixture>
 Public Class ClienteServiceTests
@@ -8,7 +11,7 @@ Public Class ClienteServiceTests
     Public Sub BuscarNomeDoCliente_DeveRetornarNome()
         ' Arrange
         Dim mockRepo = New Mock(Of IClienteRepository)()
-        Dim clienteEsperado = New Cliente With {.Id = 1, .nome = "Maria"}
+        Dim clienteEsperado = New Cliente With {.Id = 1, .Nome = "Maria"}
         mockRepo.Setup(Function(r) r.ObterPorId(1)).Returns(clienteEsperado)
 
         Dim service = New ClienteService(mockRepo.Object)

@@ -6,8 +6,10 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 
 ## Estrutura do Projeto
 
-- **`/ConsoleVB`**: Contém os arquivos de teste.
-- **`/ConsoleVB.Tests`**: Contém o código-fonte principal.
+- **`VBNet.Domain`**: Aqui estão as entidades do projeto.
+- **`VBNet.Infra`**: A camada de Ports e Adapters.
+- **`VBNet.Service`**: Projeto que contém o negócio.
+- **`VBNet.Tests`**: O projeto de testes.
 
 ## Pré-requisitos
 

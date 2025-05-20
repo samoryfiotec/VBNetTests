@@ -15,6 +15,7 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 
 - Visual Studio 2022
 - .NET Framework 4.8
+- Docker
 
 ## Frameworks de Testes
 

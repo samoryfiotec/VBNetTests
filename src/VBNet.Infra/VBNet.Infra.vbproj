@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Abstractions\IClienteRepository.vb" />
     <Compile Include="Abstractions\IPedidoRepository.vb" />
+    <Compile Include="Abstractions\IRepository.vb" />
+    <Compile Include="Abstractions\IUnityOfWork.vb" />
     <Compile Include="ClienteRepository.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -83,6 +85,8 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PedidoRepository.vb" />
+    <Compile Include="Repository.vb" />
+    <Compile Include="UnityOfWork.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

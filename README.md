@@ -17,6 +17,10 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 - .NET Framework 4.8
 - Docker
 
+## Banco de Dados
+
+- Siga as instruções [por aqui](BancoDados.md).
+
 ## Frameworks de Testes
 
 - NUnit3

@@ -6,7 +6,8 @@ Execute o comando abaixo para criar uma instância do SQL Server no Docker:
 
 ```bash
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=passVBNETTests" \
-    -p 1433:1433 --name sqlserver-vbnettests \
+    -p 1433:1433 --name vbnettests \ 
+    -v sqlvolume:/var/opt/mssql \ 
     -d mcr.microsoft.com/mssql/server:2022-latest
 ```
 
@@ -26,7 +27,7 @@ Server=localhost,1433;Database=sqlserver-vbnettests;User Id=sa;Password=passVBNE
 Após conectar, crie o banco de dados com:
 
 ```sql
-CREATE DATABASE sqlserver-vbnettests;
+CREATE DATABASE VBNetTests;
 ```
 
 ## 4. Considerações

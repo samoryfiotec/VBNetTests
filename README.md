@@ -2,7 +2,8 @@
 
 Este repositório contém testes desenvolvidos em VB.NET para validar funcionalidades e garantir a qualidade do código.
 
-![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.8-blue) ![VB.NET](https://img.shields.io/badge/VB.NET-Visual_Studio-purple) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-blueviolet) ![NUnit3](https://img.shields.io/badge/NUnit-3.13.3-green) ![Moq](https://img.shields.io/badge/Moq-4.18.2-orange)
+![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.8-blue) ![VB.NET](https://img.shields.io/badge/VB.NET-Visual_Studio-purple) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-blueviolet) ![NUnit3](https://img.shields.io/badge/NUnit-3.13.3-green) ![Moq](https://img.shields.io/badge/Moq-4.18.2-orange) 
+![Docker Desktop](https://img.shields.io/badge/Docker_Desktop-4.24.2-blue?logo=docker)
 
 ## Estrutura do Projeto
 
@@ -15,10 +16,11 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 
 - Visual Studio 2022
 - .NET Framework 4.8
-- Docker
+- Docker Desktop
 
 ## Banco de Dados
 
+- Vamos utilizar o SQL Server via Docker
 - Siga as instruções [por aqui](BancoDados.md).
 
 ## Frameworks de Testes

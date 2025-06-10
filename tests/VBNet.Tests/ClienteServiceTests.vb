@@ -11,7 +11,7 @@ Public Class ClienteServiceTests
     Public Sub BuscarNomeDoCliente_DeveRetornarNome()
         ' Arrange
         Dim mockRepo = New Mock(Of IClienteRepository)()
-        Dim clienteEsperado = New Cliente With {.Id = 1, .Nome = "Maria"}
+        Dim clienteEsperado = New Cliente(1, "Maria", "maria@email.com", "123456789", "Rua A, 123")
         mockRepo.Setup(Function(r) r.ObterPorId(1)).Returns(clienteEsperado)
 
         Dim service = New ClienteService(mockRepo.Object)

@@ -3,7 +3,7 @@
 Este repositório contém testes desenvolvidos em VB.NET para validar funcionalidades e garantir a qualidade do código.
 
 ![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.8-blue) ![VB.NET](https://img.shields.io/badge/VB.NET-Visual_Studio-purple) ![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-blueviolet) ![NUnit3](https://img.shields.io/badge/NUnit-3.13.3-green) ![Moq](https://img.shields.io/badge/Moq-4.18.2-orange) 
-![Docker Desktop](https://img.shields.io/badge/Docker_Desktop-4.24.2-blue?logo=docker)
+![FluentValidation](https://img.shields.io/badge/FluentValidation-8.6.3-yellow)
 
 ## Estrutura do Projeto
 
@@ -25,8 +25,19 @@ Este repositório contém testes desenvolvidos em VB.NET para validar funcionali
 
 ## Frameworks de Testes
 
-- NUnit3
-- Moq
+### NUnit3 3.13.3
+
+> É uma estrutura de testes unitários para .NET que permite escrever e executar testes automatizados para verificar o comportamento e a qualidade do código.
+
+### Moq 4.18.2
+
+> É uma biblioteca de mocking para .NET que permite criar objetos simulados para testes unitários, facilitando a verificação de interações e comportamentos em código testado.
+
+## Validação
+
+### FluentValidation.8.6.3
+
+> É um pacote .NET para criação de regras de validação fortemente tipadas e fluentes para objetos, facilitando a validação de dados de forma clara e reutilizável.
 
 ## Como Executar os Testes
 

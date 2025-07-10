@@ -28,4 +28,8 @@ Public Class PedidoService
         End If
         Return pedido
     End Function
+
+    Public Function ListarPedidos() As List(Of Pedido) Implements IPedidoService.ListarPedidos
+        Throw New NotImplementedException()
+    End Function
 End Class

@@ -1,7 +1,4 @@
-﻿Imports System.Data
-Imports System.Threading.Tasks
-
-Public Class DapperUnitOfWork
+﻿Public Class DapperUnitOfWork
     Implements IUnityOfWork
 
     Private ReadOnly _connection As IDbConnection

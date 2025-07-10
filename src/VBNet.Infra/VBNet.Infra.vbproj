@@ -64,10 +64,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstractions\IClienteRepository.vb" />
-    <Compile Include="Abstractions\IPedidoRepository.vb" />
-    <Compile Include="Abstractions\IRepository.vb" />
-    <Compile Include="Abstractions\IUnityOfWork.vb" />
+    <Compile Include="Interfaces\IClienteRepository.vb" />
+    <Compile Include="Interfaces\IPedidoRepository.vb" />
+    <Compile Include="Interfaces\IProdutoRepository.vb" />
+    <Compile Include="Interfaces\IRepository.vb" />
+    <Compile Include="Interfaces\IUnityOfWork.vb" />
     <Compile Include="ClienteRepository.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -85,6 +86,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PedidoRepository.vb" />
+    <Compile Include="ProdutoRepository.vb" />
     <Compile Include="Repository.vb" />
     <Compile Include="UnityOfWork.vb" />
   </ItemGroup>

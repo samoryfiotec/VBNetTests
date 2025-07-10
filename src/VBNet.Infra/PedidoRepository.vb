@@ -12,4 +12,8 @@ Public Class PedidoRepository
     Public Function ObterPorId(id As Integer) As Pedido Implements IPedidoRepository.ObterPorId
         Return _pedidos.FirstOrDefault(Function(p) p.Id = id)
     End Function
+
+    Public Function Listar() As List(Of Pedido) Implements IPedidoRepository.Listar
+        Return _pedidos.ToList()
+    End Function
 End Class

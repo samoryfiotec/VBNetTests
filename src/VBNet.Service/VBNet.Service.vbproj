@@ -64,9 +64,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstractions\IClienteService.vb" />
-    <Compile Include="Abstractions\IPedidoService.vb" />
-    <Compile Include="Abstractions\IProdutoService.vb" />
+    <Compile Include="Interfaces\IClienteService.vb" />
+    <Compile Include="Interfaces\IPedidoService.vb" />
+    <Compile Include="Interfaces\IProdutoService.vb" />
     <Compile Include="ClienteService.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -84,6 +84,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="PedidoService.vb" />
+    <Compile Include="ProdutoService.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

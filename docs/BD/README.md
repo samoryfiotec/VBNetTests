@@ -29,6 +29,7 @@ Após conectar, crie o banco de dados com:
 ```sql
 CREATE DATABASE VBNetTests;
 ```
+
 ## 4. Criar e popular as tabelas
 
 Peque os scripts ddl e dml (criação e manipulação) em \docs\BD\
